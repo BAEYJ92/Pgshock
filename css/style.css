@@ -21,14 +21,14 @@ ul#menu a { display: block; width: 200px; height: 60px; font-family: Righteous; 
 ul#menu li:hover a { font-size: 24px; opacity: 1; }
 ul#menu li.on a { font-size: 24px; opacity: 1; }
 
-ul#menu li:nth-child(1):hover a { color: #d45678; border-color: #d45678;}
-ul#menu li:nth-child(2):hover a { color: #005a89; border-color: #005a89}
-ul#menu li:nth-child(3):hover a { color: #b42d2d; border-color: #b42d2d;}
+ul#menu li:nth-child(1):hover a { color: #d4164a; border-color: #d4164a;}
+ul#menu li:nth-child(2):hover a { color: #fff; border-color: #fff}
+ul#menu li:nth-child(3):hover a { color: #ffec6a; border-color: #ffec6a;}
 ul#menu li:nth-child(4):hover a { color: #005a89; border-color: #005a89;}
 
-ul#menu li:nth-child(1).on a { color: #d45678; border-color: #d45678;}
+ul#menu li:nth-child(1).on a { color: #d4164a; border-color: #d4164a;}
 ul#menu li:nth-child(2).on a { color: #fff; border-color: #fff;}
-ul#menu li:nth-child(3).on a { color: #111; border-color: #111;}
+ul#menu li:nth-child(3).on a { color: #ffec6a; border-color: #ffec6a;}
 ul#menu li:nth-child(4).on a { color: #005a89; border-color: #005a89;}
 
 section { width: 100%; height: 780px; position: relative; background-size: cover; background-position: right center; background-attachment: fixed;
@@ -42,14 +42,14 @@ section article { position: absolute; top: 46%; left: 300px; z-index: 11; }
 section article p { font-family: 'Righteous'; font-size: 50px; letter-spacing: 2px; line-height: 1; }
 section article span { font-size: 16px; }
 
-section:nth-child(1) article p { color: #d45678; }
+section:nth-child(1) article p { color: #d4164a; }
 section:nth-child(1) article span { color: #111; }
 section:nth-child(2) article p { color: #fff; }
 section:nth-child(2) article span { color: #fff; }
-section:nth-child(3) article p { color: #b42d2d; }
-section:nth-child(3) article span { color: #111; }
-section:nth-child(4) article p { color: #fff; }
-section:nth-child(4) article span { color: #d12222; }
+section:nth-child(3) article p { color: #fff; }
+section:nth-child(3) article span { color: #ffec6a; }
+section:nth-child(4) article p { color: #005a89; }
+section:nth-child(4) article span { color: #fff; }
 
 section img.p11 {width: 500px; height: 500px; position: absolute; top: 220px; left: 230px; transform: rotate(5deg);}
 section img.p20 {width: 500px; height: 200px; position: absolute; top: 370px; left: 230px; transform: rotate(5deg);}
